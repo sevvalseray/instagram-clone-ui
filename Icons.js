@@ -104,6 +104,16 @@ function Messenger({ size, fill, ...props }) {
     )
 }
 
+function More({ size, ...props }) {
+    return (
+        <Svg width={size} height={size} viewBox="0 0 15 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Circle cx="2.2998" cy="1.5" r="1.5" fill="#262626" />
+            <Circle cx="7.7998" cy="1.5" r="1.5" fill="#262626" />
+            <Circle cx="13.2998" cy="1.5" r="1.5" fill="#262626" />
+        </Svg>
+    )
+}
+
 export {
     Logo,
     Home,
@@ -114,5 +124,6 @@ export {
     ShopFilled,
     Plus,
     Heart,
-    Messenger
+    Messenger,
+    More
 }
