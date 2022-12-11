@@ -1,10 +1,12 @@
 import { View, Text, StyleSheet } from "react-native";
 import Header from "./components/Header";
+import Stories from "./components/Stories";
 
 function Home(){
     return(
         <View style={styles.container}>
             <Header />
+            <Stories />
         </View>
     )
 
